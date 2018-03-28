@@ -1,0 +1,444 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('img/bg.png');
+    background-repeat: repeat;
+    border-top: 5px solid rgba(235,235,235,0.5);
+    color: #474747;
+    font-family: sans-serif;
+}
+.fa-shopping-cart{
+    font-size: 30px;
+    text-align: left;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.center-container{
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    padding: 0px 5px;
+}
+.sesion{
+           display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+}
+
+
+.medio, .medio2{
+    width: auto;
+    height: auto;
+}
+
+.final{
+    width: 100%;
+    height: 4px;
+    margin: 0px auto;
+    margin-top: 45px;
+    overflow:hidden;
+}
+
+header{
+    overflow: hidden;
+    background-color: #44505d
+}
+
+header h1{
+    font-family: 'Bernard MT Condensed', sans-serif;
+    text-align: center;
+    margin: 0px;
+    margin-top: 35px;
+    color: white;
+    font-size: 42px;
+}
+
+header nav{
+    margin-top: 25px;
+}
+
+.main-menu, .main-menu li, .main-menu{
+    list-style: none;
+    display: block;
+    margin: 0px;
+    padding: 0px
+}
+
+.main-menu li{
+    margin-bottom: 5px;
+    text-align: center;
+    display: none;
+}
+
+.main-menu li:first-child{
+    display: block;
+    padding: 5px;
+    background-color: rgb(240,240,240);
+}
+
+.main-menu a, .main-menu label{
+    text-decoration: none;
+    font-family: 'Bauhaus 93', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.formBusqueda {
+    padding: 15px 10px;
+}
+.Banner-description{
+    background-color: #5a5a5a;	
+}
+
+
+.main-menu span{
+    display: block;
+    color: #a5a5a5;
+}
+
+.main-menu li:first-child span{
+    display: inline-block;
+}
+
+.main-menu li:first-child .fa{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#menu-switch:checked + .main-menu li{
+    display: block;
+}
+
+#menu-switch{
+    display: none;
+}
+.medium-title{
+    margin-top: 35px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.medium-container{
+    width: 100%;
+    margin: auto;
+    display:flex;
+}
+.imagenes{
+    width: 95%;
+    margin: 0px auto;
+    display: block;
+    padding: 0px 5px;
+}
+
+.formBusqueda select{
+    font-family: "Arial Rounded MT Bold";
+
+}
+.formBusqueda input{
+    font-family: "Arial Rounded MT Bold";
+    margin-left: 30px;
+}
+
+.descripcionAuto{
+    text-align: center;
+    margin-bottom: 3px;
+    margin:auto;
+}
+.decripcionCompra{
+    text-align: left;
+    color : #ffffff;
+    margin: auto;
+    /* width: 940px; */
+    display:block;
+}
+.PrecioAuto {
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: center;
+    margin: 5px 13px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.main-abajo{
+    background-color: #c7c7c7	;
+}
+
+.main-abajo ul{
+    padding-left: 0px;
+}
+.descripcionAuto{
+    width: 100%;
+    display: none;
+}
+
+.main-abajo2{
+    display: none;
+}	
+
+.main-abajo3{
+    padding-left: 5px; 
+}
+.parrafoAbajo3{
+    color: #cccccc;
+}
+.PiePagina{
+    background-color: #444444;
+    padding: 10px;
+}
+
+.parrafoAbajo2{
+    text-align:center;
+    padding: 10px;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+    h1{
+        float: left;
+        margin-top: 35px;
+        padding-left: 10px;
+    }	
+
+    header nav{
+        margin-top: 45px;
+        margin-right: 10px;
+        float: right;
+    }
+
+    .main-menu li{ 
+        text-align: left;
+        margin-left: 30px;
+        display: inline-block;
+    }
+
+    .main-menu li:first-child{ 
+        display: none;
+        margin-left: 0px;
+    }
+    .main-abajo li{ 
+        margin-top: 0px;
+    }
+    .description-titleAbajo{
+        width: 100%;
+        margin: 0px auto;
+        display: block;
+        padding: 0px 5px;
+    }
+
+    .formBusqueda select{
+        font-family: "Arial Rounded MT Bold";
+    }
+    .sesion{
+        float: right;
+        display: block;
+        /*background-color: rgba(0, 0, 0, 0);*/ 
+        margin-right: 41px;
+        color: rgb(255, 255, 255);
+    }
+    
+    
+    
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .main-menu li{ 
+        margin-left: 15px;
+    }
+
+    .center-container{
+        width: 940px;
+        padding: 0px;
+    }
+
+    .fa-search{
+        font-size: 30px;
+    }
+
+
+    .description-titleAbajo2{
+        float:left;
+        font-size: 16px;
+    }
+
+    .main-abajo2, .main-abajo2 ul{
+        list-style: none;
+        display: inline-block;
+        margin: auto;
+    }
+
+    .main-abajo2{
+        margin-top: 30px;
+        display:flex;
+        width: 940px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+    .main-abajo2 p{
+        font-weight: normal;
+    }
+
+    .imagenes{
+        float:center;
+        width: 200px;
+        height:130px;
+    }
+
+    .descripcionAuto{
+        width: 100%;
+        display: block;
+    }
+
+    .description-titleAbajo{
+        width: 100%;
+        margin: 0px auto;
+        display: block;
+        padding: 0px 5px;
+    }
+    
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .fa-star{
+        font-size: 50px;
+    }
+    .fa-search{
+        font-size: 50px;
+    }
+    .fa-commenting-o{
+        font-size: 50px;
+    }
+    .fa{
+        float:left;
+
+    }
+
+    .description-titleAbajo{
+        float:right;
+        font-size: 19px;
+    }
+
+    .main-abajo, .main-abajo ul{
+        list-style: none;
+        display: inline-block;
+        margin: auto;
+    }
+
+    .main-abajo{
+        display:flex;
+        width: 940px;
+        font-weight: bold;
+    }
+
+    .medium-container2{
+        width: 940px;
+        margin: 0px auto;
+        display:flex;
+    }
+
+    .medium-container{
+        width: 940px;
+        margin: 0px auto;
+        display:flex;
+    }
+    .description-titleAbajo2{
+        float:left;
+        font-size: 16px;
+
+    }
+
+    .main-abajo2, .main-abajo2 ul{
+        list-style: none;
+        display: inline-block;
+        margin: auto;
+    }
+
+    .main-abajo2{
+        margin-top: 30px;
+        display:flex;
+        width: 940px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+    .main-abajo2 p{
+        font-weight: normal;
+    }
+
+    .imagenes{
+        float:left;
+        width: 200px;
+        height:130px;
+    }
+
+    .medio, .medio2{
+        width: 355px;
+        height: 30px;
+        display: block;
+        margin-top: 30px;
+    }
+
+    .main-abajo p{
+        font-weight: normal;
+    }	
+
+    .PiePagina{
+        margin: auto;
+        width: 940px;
+        display:block;
+        border-top: 0px;
+        margin-top: 0px;
+    }
+
+    .parrafoAbajo2{
+        text-align:center;
+    }
+
+}
+
+/****************************************************/
+.banner{
+    margin-top: 10px;
+}
+
+.banner-description{
+    padding: 20px 25px;
+    background-image: url('img/bg-banner-description.png');
+    background-repeat: repeat;
+}
+
+
+.banner-description .description-title{
+    font-family: 'Bauhaus 93', sans-serif;
+    margin: 0px;
+    font-size: 20px;
+}
+.description-title .fa-search{
+    padding-left: 20px;
+    font-size: 30px;
+}
+.f-description p{
+    font-family: 'HelveticaNeue-Medium', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #474747;
+}
+.fa-diamond{
+    float: none;
+}
+
+
+@media (min-width: 768px) {
+    .banner{
+        margin-top: 50px;
+    }
+}
+
+
